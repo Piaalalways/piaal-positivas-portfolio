@@ -5,3 +5,40 @@
 .font-space {
     font-family: "Space Grotesk", serif;
 }
+.bg-green{
+    background-color:#B9FF66;
+}
+.cous-btn{
+    padding:20px 35px ;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 14px;
+    border: none;
+    background-color:#191A23;
+    font-weight: 400;
+}
+main{
+    max-width:1440px ;
+}
+        /* first Banner Section  */
+
+.first-sec{
+    display: flex;
+    justify-items: space-between;
+}
+.article-div{
+     
+}
+.first-title{
+    font-size: 60px;
+    max-width: 530px;
+    font-weight: 500px;
+}
+
+.first-pra{
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 500px;
+    padding: 30px 0px 30px 0px;
+    line-height: 28px;
+}
