@@ -1,44 +1,96 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 .font-space {
     font-family: "Space Grotesk", serif;
 }
-.bg-green{
-    background-color:#B9FF66;
+
+.bg-green {
+    background-color: #B9FF66;
 }
-.cous-btn{
-    padding:20px 35px ;
+
+.cous-btn {
+    padding: 20px 35px;
     color: #FFFFFF;
     font-size: 20px;
     border-radius: 14px;
     border: none;
-    background-color:#191A23;
+    background-color: #191A23;
     font-weight: 400;
-}
-main{
-    max-width:1440px ;
-}
-        /* first Banner Section  */
 
-.first-sec{
+}
+
+.content-box {
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+/*================ first Banner Section ===============*/
+
+.hero-section {
+    padding: 70px 0;
+}
+
+.hero-items {
     display: flex;
-    justify-items: space-between;
+    justify-content: space-between;
+    align-items: center;
 }
-.article-div{
-     
-}
-.first-title{
+
+.article-div h1 {
     font-size: 60px;
     max-width: 530px;
     font-weight: 500px;
 }
 
-.first-pra{
+.article-div p {
     font-size: 20px;
     font-weight: 400;
     max-width: 500px;
     padding: 30px 0px 30px 0px;
     line-height: 28px;
+}
+
+.hero-items img {
+    width: 100%;
+}
+
+/*=================== second section */
+
+.company-logo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px
+}
+.company-logo img{
+    width: auto;
+    height: 48px;
+
+}
+
+/* ======================== Responsive ============================== */
+
+@media screen and (max-width: 768px) {
+    .hero-items {
+        flex-direction: column-reverse;
+    }
+    .article-div h1{
+        font-size: 2.5rem;
+    }
+    .article-div p{
+        font-size: 16px;
+    }
+    .cous-btn{
+       width: 100%;
+       margin: 0 auto;
+    }
+    
+    .company-logo img {
+        width: auto;
+        height: 35px;
+    }
 }
