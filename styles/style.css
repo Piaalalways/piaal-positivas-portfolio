@@ -99,8 +99,15 @@
 
         /* ===========card-section========== */
 
+
 .card-section{
-    padding: 70px 0;
+    padding-bottom: 70px 0;
+}
+
+.parent-card{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:40px;
 }
 
 .card{
@@ -148,7 +155,7 @@
 }
 
 .card-article h3{
-    width: 183px;
+    width: 173px;
     padding: 0  7px;
     font-size: 30px;
     border-radius: 10px;
@@ -182,8 +189,11 @@
 }
 .card-img{
     align-self: center;
-}
 
+}
+.card-img img{
+    width: 100%;
+}
 
 
 
@@ -226,5 +236,23 @@
     .company-logo img {
         width: auto;
         height: 35px;
+    }
+    .service-art{
+        flex-direction: column;
+    }
+    .parent-card{
+        grid-template-columns: auto ;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .card-img{
+        max-width: 70%;
+    }
+    .card-article h2{
+        font-size: 25px;
+    }
+    .card-article h3{
+        font-size: 20px;
     }
   }
