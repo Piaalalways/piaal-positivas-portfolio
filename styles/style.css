@@ -7,10 +7,34 @@
     font-family: "Space Grotesk", serif;
 }
 
+
+/* =========textColur */
+.text-black{
+    color: black;
+}
+.text-green{
+    color: #B9FF66;
+}
+.text-white{
+    color: #FFFFFF;
+}
+/* ========Background colour */
 .bg-green {
     background-color: #B9FF66;
 }
-
+.bg-gray{
+    background: #F3F3F3;
+}
+.bg-navy{
+    background-color: #191A23;
+}
+.bg-black{
+    background-color:black;
+}
+.border-radius{
+    border-radius: 50px;
+}
+/* ============Button */
 .cous-btn {
     padding: 20px 35px;
     color: #FFFFFF;
@@ -19,15 +43,13 @@
     border: none;
     background-color: #191A23;
     font-weight: 400;
-
 }
-
+/*+++++> box Contianner */
 .content-box {
     max-width: 1500px;
     padding: 0 20px;
     margin: auto;
 }
-
 /*================ first Banner Section ===============*/
 .hero-section {
     padding: 70px 0;
@@ -124,24 +146,7 @@
 .bg-green {
     background-color: #B9FF66;
 }
-.bg-gray{
-    background: #F3F3F3;
-}
-.bg-navy{
-    background-color: #191A23;
-}
-.bg-black{
-    background-color:black;
-}
-.text-black{
-    color: black;
-}
-.text-green{
-    color: #B9FF66;
-}
-.text-white{
-    color: #FFFFFF;
-}
+
 .card-article{
    display: flex;
    flex-direction: column;
@@ -185,28 +190,55 @@
 .arrow-div a{
     display: inline-block;
     text-decoration: none;
-    font-size:20px ;
+    font-size:20px;
 }
 .card-img{
     align-self: center;
-
 }
 .card-img img{
     width: 100%;
 }
 
+  
+/* ========== let's make things========= */
 
+.lets{
+    padding: 0px 70px;
+    max-height:347px ;
+}
+.lets-article h2{
+    font-size: 30px;
+}
 
+.lets-article p{
+    font-size: 18px;
+    max-width:500px ;
+    height:auto ;
+    padding:26px 0 ;
+}
+.emoji-div img{
+    max-width: 100%;
+}
 
+ /* =========== Case Card=========== */
 
+.case-card-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 70px;
+    border-radius: 50px;
+    
+}
+.border-left{
+    border-left: 1px solid white;
+    padding-left:64px ;
+}
 
-
-
-
-
-
-
-
+.case-card p{
+    max-width:286px;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
 
 
 
@@ -255,4 +287,27 @@
     .card-article h3{
         font-size: 20px;
     }
+    .emoji-div img{
+        display: none;
+    }
+    .lets{
+        padding:50px;
+    }
+    {
+        grid-auto-rows: auto auto auto;
+        gap: 50px;
+       
+        padding: 0px;
+        overflow: hidden;
+    }
+    .case-card{
+        background-color:#191A23;
+        padding: 50px;
+    }
+    .case-card p{
+        font-size: 16px;
+    }
+    .case-card-section {
+        display: none;
+    }     
   }
