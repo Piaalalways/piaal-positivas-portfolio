@@ -44,6 +44,12 @@
     background-color: #191A23;
     font-weight: 400;
 }
+/* for all section===== */
+.hero-section{
+    padding: 70px 0  ;
+}
+
+
 /*+++++> box Contianner */
 .content-box {
     max-width: 1500px;
@@ -51,9 +57,7 @@
     margin: auto;
 }
 /*================ first Banner Section ===============*/
-.hero-section {
-    padding: 70px 0;
-}
+
 
 .hero-items {
     display: flex;
@@ -80,9 +84,6 @@
 }
 
 /*============= logo section =========*/
-.logo-section {
-    padding-bottom: 55px;
-}
 
 .company-logo {
     display: flex;
@@ -97,14 +98,14 @@
 }
 
 /* ========services======== */
-.services-sec{
-    padding: 70px 0  ;
-}
+
 
 .service-art{ 
+
     display: flex;
     align-items:center;
     gap: 50px;
+    padding-bottom: 80px;
 }
 
 .service-art h2{
@@ -120,11 +121,6 @@
 }
 
         /* ===========card-section========== */
-
-
-.card-section{
-    padding-bottom: 70px 0;
-}
 
 .parent-card{
     display: grid;
@@ -176,7 +172,6 @@
 }
 .arowIcon{
     display:inline-block ;
-    
     width: 40px;
     height: 40px;
     text-align: center;
@@ -240,10 +235,54 @@
     padding-bottom: 20px;
 }
 
+/* =========working process card ===========*/
 
+.process-width{
+    max-width: 292px;
+}
+.Working-card{
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 30px;
+}
+.first-div{
+    padding: 40px 60px;
+}
+.name-div{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom:20px ;
 
+}
+.name-div .minus{
+    transform: none;
+    
+}
 
-
+.count-div{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.count-div .one{
+    font-weight: 500;
+    color: #000000;
+    font-size: 60px;
+}
+.count-div .title{
+    font-weight: 500;
+    font-size: 30px;
+    color: #000000;
+}
+.first-div .consul-doc{
+    padding-top:40px;
+    border-top:2px solid #000000;
+   
+}
+.consul-doc p{
+    max-width: 1300px;
+}
 
 
 
@@ -293,13 +332,7 @@
     .lets{
         padding:50px;
     }
-    {
-        grid-auto-rows: auto auto auto;
-        gap: 50px;
-       
-        padding: 0px;
-        overflow: hidden;
-    }
+
     .case-card{
         background-color:#191A23;
         padding: 50px;
@@ -309,5 +342,21 @@
     }
     .case-card-section {
         display: none;
-    }     
+    }   
+    .count-div .one{
+        font-size: 23px
+    }
+    .count-div .title{
+        font-size: 15px;
+    }
+    .first-div{
+        padding:30px;
+        padding-bottom: 0;
+    }
+    .first-div .consul-doc{
+        display: none;
+    }
+    .first-div .name-div{
+        gap: 40px;
+    }
   }
